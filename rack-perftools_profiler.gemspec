@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency             'perftools.rb', '~> 2.0.1'
-  s.add_dependency             'rack',         '~> 1.0'
+  s.add_dependency             'rack',         '< 3'
   s.add_dependency             'open4',        '~> 1.0'
   s.add_development_dependency 'rack',         '~> 1.1'
   s.add_development_dependency 'shoulda',      '~> 2.10'
